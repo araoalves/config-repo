@@ -1,11 +1,13 @@
 spring:
-  jpa:
-    hibernate:
-      ddl-auto: create
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
   datasource:
     username: dbuser
     password: admin2021
+    platform: postgres
+    initialization-mode: always
     url: jdbc:postgresql://localhost:5432/fornecedor
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
