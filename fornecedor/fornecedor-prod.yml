@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    platform: postgres
+    initialization-mode: always
+    url: jdbc:postgresql://localhost:5432/fornecedor
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
