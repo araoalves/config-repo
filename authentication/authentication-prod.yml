@@ -1,10 +1,10 @@
 spring:
   datasource:
-    username: authentication
-    password: authentication
+    username: dbuser
+    password: admin2021
     platform: postgres
     initialization-mode: always
-    url: jdbc:postgresql://docker-postgres:5432/authentication
+    url: jdbc:postgresql://postgres:5432/authentication
   jpa:
     properties:
       hibernate:
