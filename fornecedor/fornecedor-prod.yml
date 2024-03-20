@@ -4,7 +4,7 @@ spring:
     password: root
     platform: postgres
     initialization-mode: always
-    url: jdbc:postgresql://localhost:5432/fornecedor
+    url: jdbc:postgresql://postgres:5432/fornecedor
   jpa:
     properties:
       hibernate:
