@@ -1,7 +1,7 @@
 spring:
   datasource:
-    username: root
-    password: root
+    username: dbuser
+    password: admin2021
     platform: postgres
     initialization-mode: always
     url: jdbc:postgresql://postgres:5432/fornecedor
