@@ -4,7 +4,7 @@ spring:
     password: admin2021
     platform: postgres
     initialization-mode: always
-    url: jdbc:postgresql://postgres:5432/authentication
+    url: jdbc:postgresql://144.22.188.2:5432/authentication
   jpa:
     properties:
       hibernate:
